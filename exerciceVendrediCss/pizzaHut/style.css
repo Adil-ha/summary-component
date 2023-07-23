@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 10px;
+}
+
+.header-content{
+    padding-bottom: 15px;
+    border-bottom: 1px solid gray;
+}
+
+.header-content figure{
+    margin: 10px 0 20px 150px;
+}
+
+.header-content h1{
+    margin-bottom: 20px;
+}
+
+.header-content button, main button {
+    padding: 0 8px;
+}
+
+main{
+    padding:  10px 0;
+    border-bottom: 1px solid gray;
+    
+}
+
+form{
+    padding-top: 10px;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+}
+
+label{
+    display: inline-block;
+}
+input:last-child{
+    width: 50%;
+}
+main button{
+    margin-left: 250px;
+}
+
+footer{
+    margin: 20px 0 20px 150px;
+}
+
